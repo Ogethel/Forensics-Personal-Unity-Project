@@ -552,10 +552,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a22b451f6097595439a10739ec0d05d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controllable: {fileID: 23104457}
-  displayText: {fileID: 1735952730}
-  outputOnMax: 
-  outputOnMin: 
 --- !u!114 &23104457
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1162,10 +1158,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a22b451f6097595439a10739ec0d05d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controllable: {fileID: 49091290}
-  displayText: {fileID: 1803279333}
-  outputOnMax: Lever Maximum Reached
-  outputOnMin: Lever Minimum Reached
 --- !u!114 &49091290
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1358,10 +1350,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a22b451f6097595439a10739ec0d05d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controllable: {fileID: 60421283}
-  displayText: {fileID: 2060833803}
-  outputOnMax: Drawer Open
-  outputOnMin: Drawer Closed
 --- !u!114 &60421283
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2439,10 +2427,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a22b451f6097595439a10739ec0d05d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controllable: {fileID: 94533973}
-  displayText: {fileID: 1256894394}
-  outputOnMax: Lever Maximum Reached
-  outputOnMin: Lever Minimum Reached
 --- !u!114 &94533973
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5012,30 +4996,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b92f31ea3df4a30489af206fa51f3e23, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  disableWhenIdle: 1
-  allowedNearTouchControllers: 0
-  allowedTouchControllers: 0
-  ignoredColliders: []
-  isGrabbable: 1
-  holdButtonToGrab: 1
-  stayGrabbedOnTeleport: 1
-  validDrop: 1
-  grabOverrideButton: 0
-  allowedGrabControllers: 0
-  grabAttachMechanicScript: {fileID: 140154918}
-  secondaryGrabActionScript: {fileID: 140154917}
-  isUsable: 0
-  holdButtonToUse: 1
-  useOnlyIfGrabbed: 0
-  pointerActivatesUseAction: 0
-  useOverrideButton: 0
-  allowedUseControllers: 0
-  objectHighlighter: {fileID: 0}
-  touchHighlightColor: {r: 1, g: 0, b: 1, a: 0}
-  usingState: 0
-  baseCan: {fileID: 474834404}
-  breakDistance: 0.5
-  maxSprayPower: 5
 --- !u!54 &140154920
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6302,10 +6262,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a22b451f6097595439a10739ec0d05d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controllable: {fileID: 160838770}
-  displayText: {fileID: 1844489485}
-  outputOnMax: Lever Maximum Reached
-  outputOnMin: Lever Minimum Reached
 --- !u!54 &160838769
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7249,10 +7205,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a22b451f6097595439a10739ec0d05d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controllable: {fileID: 0}
-  displayText: {fileID: 0}
-  outputOnMax: Button Pressed
-  outputOnMin: 
 --- !u!114 &187534706
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8444,10 +8396,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a22b451f6097595439a10739ec0d05d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controllable: {fileID: 211373227}
-  displayText: {fileID: 2014626932}
-  outputOnMax: 
-  outputOnMin: Door Closed
 --- !u!114 &211373227
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15955,10 +15903,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ea5335256d44a94bab9d156994a3f72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  leftController: {fileID: 146981108}
-  rightController: {fileID: 797542237}
-  leftHandAvatar: {fileID: 1129828820}
-  rightHandAvatar: {fileID: 2056105427}
 --- !u!1 &392761933
 GameObject:
   m_ObjectHideFlags: 0
@@ -18738,29 +18682,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0578d0a842f38b0479ca40b5706db305, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  disableWhenIdle: 1
-  allowedNearTouchControllers: 0
-  allowedTouchControllers: 0
-  ignoredColliders: []
-  isGrabbable: 1
-  holdButtonToGrab: 1
-  stayGrabbedOnTeleport: 1
-  validDrop: 1
-  grabOverrideButton: 0
-  allowedGrabControllers: 0
-  grabAttachMechanicScript: {fileID: 474834406}
-  secondaryGrabActionScript: {fileID: 474834405}
-  isUsable: 1
-  holdButtonToUse: 1
-  useOnlyIfGrabbed: 0
-  pointerActivatesUseAction: 0
-  useOverrideButton: 0
-  allowedUseControllers: 0
-  objectHighlighter: {fileID: 0}
-  touchHighlightColor: {r: 1, g: 0, b: 1, a: 0}
-  usingState: 0
-  leverAnimation: {fileID: 1290207158}
-  sprayer: {fileID: 140154919}
 --- !u!114 &474834405
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21407,10 +21328,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a22b451f6097595439a10739ec0d05d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controllable: {fileID: 550226552}
-  displayText: {fileID: 230680862}
-  outputOnMax: Button Pressed
-  outputOnMin: 
 --- !u!114 &550226552
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23185,10 +23102,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a22b451f6097595439a10739ec0d05d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controllable: {fileID: 585346665}
-  displayText: {fileID: 809332020}
-  outputOnMax: Drawer Open
-  outputOnMin: Drawer Closed
 --- !u!114 &585346665
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28323,10 +28236,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a22b451f6097595439a10739ec0d05d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controllable: {fileID: 693707242}
-  displayText: {fileID: 244426495}
-  outputOnMax: Lever Maximum Reached
-  outputOnMin: Lever Minimum Reached
 --- !u!114 &693707242
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28855,10 +28764,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a22b451f6097595439a10739ec0d05d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controllable: {fileID: 699241512}
-  displayText: {fileID: 595856569}
-  outputOnMax: Chest Open
-  outputOnMin: Chest Closed
 --- !u!114 &699241512
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29146,10 +29051,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a22b451f6097595439a10739ec0d05d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controllable: {fileID: 716709134}
-  displayText: {fileID: 844004926}
-  outputOnMax: 
-  outputOnMin: Door Closed
 --- !u!114 &716709134
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29826,10 +29727,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a22b451f6097595439a10739ec0d05d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controllable: {fileID: 725117315}
-  displayText: {fileID: 1133366372}
-  outputOnMax: 
-  outputOnMin: Door Closed
 --- !u!114 &725117315
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30504,6 +30401,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2706790727220717145, guid: 2c8ed1651b9e1d74aabe4265caa2cbee,
+        type: 3}
+      propertyPath: m_TagString
+      value: ExcludeTeleport
+      objectReference: {fileID: 0}
     - target: {fileID: 3402593929924581090, guid: 2c8ed1651b9e1d74aabe4265caa2cbee,
         type: 3}
       propertyPath: m_IsActive
@@ -31029,10 +30931,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a22b451f6097595439a10739ec0d05d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controllable: {fileID: 745797124}
-  displayText: {fileID: 1443800358}
-  outputOnMax: 
-  outputOnMin: 
 --- !u!114 &745797124
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31631,10 +31529,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a22b451f6097595439a10739ec0d05d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controllable: {fileID: 772356295}
-  displayText: {fileID: 1862229971}
-  outputOnMax: Lever Maximum Reached
-  outputOnMin: Lever Minimum Reached
 --- !u!54 &772356294
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -32090,10 +31984,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a22b451f6097595439a10739ec0d05d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controllable: {fileID: 786675129}
-  displayText: {fileID: 2135024826}
-  outputOnMax: 
-  outputOnMin: Door Closed
 --- !u!114 &786675129
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33491,10 +33381,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a22b451f6097595439a10739ec0d05d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controllable: {fileID: 833501218}
-  displayText: {fileID: 886174872}
-  outputOnMax: Drawer Open
-  outputOnMin: Drawer Closed
 --- !u!114 &833501218
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33613,10 +33499,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a22b451f6097595439a10739ec0d05d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controllable: {fileID: 836751852}
-  displayText: {fileID: 661469352}
-  outputOnMax: 
-  outputOnMin: Door Closed
 --- !u!114 &836751852
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35903,10 +35785,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a22b451f6097595439a10739ec0d05d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controllable: {fileID: 887533860}
-  displayText: {fileID: 1568898851}
-  outputOnMax: 
-  outputOnMin: Door Closed
 --- !u!114 &887533860
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36945,10 +36823,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a22b451f6097595439a10739ec0d05d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controllable: {fileID: 913783072}
-  displayText: {fileID: 1407640940}
-  outputOnMax: 
-  outputOnMin: Door Closed
 --- !u!114 &913783072
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38614,8 +38488,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21f22cb42b0fc1e40b55843fe65fe7a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  toggleZoneA: {fileID: 1929987514}
-  toggleZoneB: {fileID: 1744217557}
 --- !u!1 &942893611
 GameObject:
   m_ObjectHideFlags: 0
@@ -39662,6 +39534,26 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 961388302}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &965007590 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2706790727220717145, guid: 2c8ed1651b9e1d74aabe4265caa2cbee,
+    type: 3}
+  m_PrefabInstance: {fileID: 735010687}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &965007593
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965007590}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7513297493162946847, guid: 2c8ed1651b9e1d74aabe4265caa2cbee, type: 3}
 --- !u!1 &967293589
 GameObject:
   m_ObjectHideFlags: 0
@@ -41429,6 +41321,26 @@ Transform:
   m_Father: {fileID: 23104455}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!1 &1016350375 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: 2c8ed1651b9e1d74aabe4265caa2cbee,
+    type: 3}
+  m_PrefabInstance: {fileID: 735010687}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1016350376
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1016350375}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1 &1019908638
 GameObject:
   m_ObjectHideFlags: 0
@@ -44352,14 +44264,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5542dbf87f94a74d8cfd77d17fbe27d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  optionType: 1
-  pointers:
-  - {fileID: 146981103}
-  - {fileID: 797542232}
-  controllable: {fileID: 1084919330}
-  displayText: {fileID: 941965238}
-  maxText: Grab To Pointer Tip
-  minText: Grab To Controller
 --- !u!114 &1084919330
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46410,10 +46314,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a22b451f6097595439a10739ec0d05d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controllable: {fileID: 1112121023}
-  displayText: {fileID: 1069987456}
-  outputOnMax: 
-  outputOnMin: 
 --- !u!114 &1112121023
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47277,10 +47177,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a22b451f6097595439a10739ec0d05d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controllable: {fileID: 1130139758}
-  displayText: {fileID: 1482363353}
-  outputOnMax: Slider Maximum Reached
-  outputOnMin: Slider Minimum Reached
 --- !u!114 &1130139758
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48366,10 +48262,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a22b451f6097595439a10739ec0d05d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controllable: {fileID: 1149594340}
-  displayText: {fileID: 1721325988}
-  outputOnMax: Lever Maximum Reached
-  outputOnMin: Lever Minimum Reached
 --- !u!54 &1149594339
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -54736,10 +54628,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a22b451f6097595439a10739ec0d05d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controllable: {fileID: 1298526865}
-  displayText: {fileID: 2049193792}
-  outputOnMax: Button Pressed
-  outputOnMin: 
 --- !u!114 &1298526865
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55305,10 +55193,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a22b451f6097595439a10739ec0d05d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controllable: {fileID: 1309131622}
-  displayText: {fileID: 1321956108}
-  outputOnMax: 
-  outputOnMin: Door Closed
 --- !u!114 &1309131622
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56409,10 +56293,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a22b451f6097595439a10739ec0d05d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controllable: {fileID: 1333447215}
-  displayText: {fileID: 861555139}
-  outputOnMax: 
-  outputOnMin: Door Closed
 --- !u!114 &1333447215
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56949,10 +56829,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a22b451f6097595439a10739ec0d05d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controllable: {fileID: 1343203634}
-  displayText: {fileID: 605016249}
-  outputOnMax: 
-  outputOnMin: 
 --- !u!114 &1343203634
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59629,10 +59505,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a22b451f6097595439a10739ec0d05d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controllable: {fileID: 1410663839}
-  displayText: {fileID: 1632578501}
-  outputOnMax: Slider Maximum Reached
-  outputOnMin: Slider Minimum Reached
 --- !u!114 &1410663839
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60078,10 +59950,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a22b451f6097595439a10739ec0d05d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controllable: {fileID: 1435941681}
-  displayText: {fileID: 797251650}
-  outputOnMax: 
-  outputOnMin: Door Closed
 --- !u!114 &1435941681
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65991,10 +65859,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a22b451f6097595439a10739ec0d05d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controllable: {fileID: 1604178189}
-  displayText: {fileID: 319406634}
-  outputOnMax: Drawer Open
-  outputOnMin: Drawer Closed
 --- !u!114 &1604178189
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66937,10 +66801,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a22b451f6097595439a10739ec0d05d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controllable: {fileID: 1620384208}
-  displayText: {fileID: 1680576239}
-  outputOnMax: Slider Maximum Reached
-  outputOnMin: Slider Minimum Reached
 --- !u!114 &1620384208
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67931,10 +67791,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a22b451f6097595439a10739ec0d05d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controllable: {fileID: 1649252751}
-  displayText: {fileID: 1217787922}
-  outputOnMax: Drawer Open
-  outputOnMin: Drawer Closed
 --- !u!114 &1649252751
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68973,10 +68829,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a22b451f6097595439a10739ec0d05d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controllable: {fileID: 1675783213}
-  displayText: {fileID: 444379454}
-  outputOnMax: Drawer Open
-  outputOnMin: Drawer Closed
 --- !u!114 &1675783213
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -70466,10 +70318,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a22b451f6097595439a10739ec0d05d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controllable: {fileID: 1707245457}
-  displayText: {fileID: 188122525}
-  outputOnMax: Slider Maximum Reached
-  outputOnMin: Slider Minimum Reached
 --- !u!114 &1707245457
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -76668,14 +76516,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5542dbf87f94a74d8cfd77d17fbe27d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  optionType: 0
-  pointers:
-  - {fileID: 146981103}
-  - {fileID: 797542232}
-  controllable: {fileID: 1741144779}
-  displayText: {fileID: 149366380}
-  maxText: Interact On
-  minText: Interact Off
 --- !u!114 &1741144779
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -76759,18 +76599,6 @@ MonoBehaviour:
   checkType: 1
   identifiers:
   - SnapCylinder
---- !u!114 &1744217557 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 114000012880271118, guid: 5d323709f0cbd454196647d9d8f2dd84,
-    type: 3}
-  m_PrefabInstance: {fileID: 1971914115}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1744217553}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa31935730602684ca098655260a7c33, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1744557688
 GameObject:
   m_ObjectHideFlags: 0
@@ -78925,10 +78753,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a22b451f6097595439a10739ec0d05d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controllable: {fileID: 1789359891}
-  displayText: {fileID: 54968997}
-  outputOnMax: Drawer Open
-  outputOnMin: Drawer Closed
 --- !u!114 &1789359891
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -79923,10 +79747,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a22b451f6097595439a10739ec0d05d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controllable: {fileID: 1822830872}
-  displayText: {fileID: 691630279}
-  outputOnMax: 
-  outputOnMin: 
 --- !u!114 &1822830872
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -81339,10 +81159,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a22b451f6097595439a10739ec0d05d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controllable: {fileID: 1856940594}
-  displayText: {fileID: 0}
-  outputOnMax: Button Pressed
-  outputOnMin: 
 --- !u!114 &1856940594
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -82574,10 +82390,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a22b451f6097595439a10739ec0d05d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controllable: {fileID: 1884293546}
-  displayText: {fileID: 1974824521}
-  outputOnMax: 
-  outputOnMin: 
 --- !u!114 &1884293546
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -83140,10 +82952,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a22b451f6097595439a10739ec0d05d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controllable: {fileID: 1890849141}
-  displayText: {fileID: 492030501}
-  outputOnMax: Drawer Open
-  outputOnMin: Drawer Closed
 --- !u!114 &1890849141
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -84693,18 +84501,6 @@ MonoBehaviour:
   checkType: 1
   identifiers:
   - SnapCube
---- !u!114 &1929987514 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 114000012880271118, guid: 5d323709f0cbd454196647d9d8f2dd84,
-    type: 3}
-  m_PrefabInstance: {fileID: 1744890625}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1929987510}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa31935730602684ca098655260a7c33, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1930067966
 GameObject:
   m_ObjectHideFlags: 0
@@ -88079,10 +87875,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a22b451f6097595439a10739ec0d05d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controllable: {fileID: 2024507103}
-  displayText: {fileID: 2055711985}
-  outputOnMax: Chest Open
-  outputOnMin: Chest Closed
 --- !u!114 &2024507103
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -90590,10 +90382,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a22b451f6097595439a10739ec0d05d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controllable: {fileID: 2094858489}
-  displayText: {fileID: 1466670298}
-  outputOnMax: 
-  outputOnMin: Door Closed
 --- !u!114 &2094858489
 MonoBehaviour:
   m_ObjectHideFlags: 0
